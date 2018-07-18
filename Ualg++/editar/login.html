@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="topo">
+
+<div class="text-center">
+<div class="logo container">
+  <a href="index.php" title="ClassicParts">
+  <img src="img/logo.png" alt="ClassicParts">    
+  </a> 
+</div>
+</div>
+
+ 
+<div class="text-right">
+<div class="social">
+  <a href="https://www.facebook.com/ClassicParts">
+  <img src="img/facebook.png">    
+  </a> 
+   <a href="#">
+  <img src="img/twitter.png">    
+  </a> 
+  </a> 
+   <a href="#">
+  <img src="img/pinterest.png">    
+  </a> 
+  </a> 
+   <a href="#">
+  <img src="img/google.png">    
+  </a> 
+  </a> 
+   <a href="#">
+  <img src="img/instagram.png">    
+  </a> 
+  </a> 
+   <a href="#">
+  <img src="img/youtube.png">    
+  </a> 
+</div>
+</div>
+
+</div>
+
+<ol class="breadcrumb">
+  <li><a href="index.php">Home</a></li>
+  <li class="active">Login</li>
+</ol>
+
+<!-- BEGIN MENU -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     <li class="active"> <a class="navbar-brand" href="index.php">{Home}</a></li>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{Dropdown} <span class="glyphicon glyphicon-plus-sign"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="sachs.php">{Mota1}</a></li>
+            <li><a href="#">{Mota2}</a></li>
+            <li><a href="#">{Mota3}</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+    <ul class="nav navbar-nav navbar-right">
+  
+      <li><a href="contactos.php"></span> Sobre nós/Contactos</a></li>
+      <li><a href="register.php?error=&nome=&email="><span class="glyphicon glyphicon-user"></span> {Menu2}</a></li>
+      <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> {Menu3}</a></li>
+       <li><a href="carrinho.php" class="btn btn-default" type="button"  ><i
+              class="glyphicon glyphicon-shopping-cart" ></i></a></li>
+  
+   </ul>
+</nav>
+   <!-- END MENU -->
+
+   <div class="w3-red" style="text-align:center;">
+  <!-- BEGIN MENSAGEM -->
+    <h3>{MESSAGE}</h3>
+  <!-- END MENSAGEM -->
+  </div>
+  
+
+<div class="container">
+<div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading clearfix">
+          <h3 class="panel-title">Default Form</h3>
+        </div>
+        <div class="panel-body">
+          <form role="form" method="post" action="login_action.php">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control"  name="username_login" value={Email}>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" name="pass_utilizador" placeholder="password">
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+
+<footer>
+
+ <div class="container">
+ <div class="footer-copyright">
+         
+<div class="w3-half"  style="text-align:left;">
+ &copy; 2016 Desenvolvimento de Aplica&ccedil;&otilde;es Web
+</div>
+<div class="w3-half" style="text-align:left;">
+ Designed by <a href="#">Miguel Guerreiro</a>
+
+            
+<div class="Pagamento " style="text-align:right;">
+  <img src="img/footer.png" alt="Meios de Pagamento" />
+</div>
+
+</div>
+</div>
+
+</footer>
+</html>
+

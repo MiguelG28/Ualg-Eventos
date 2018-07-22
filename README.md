@@ -3,9 +3,9 @@
 This project was developed within the scope of the Parallel and Distributed Systems discipline and aims at the construction of a distributed model implemented in a free cloud, using the knowledge taught in the theoretical classes of the curricular unit.
 It is intended to implement a portal about the events that occur or may occur at the University of Algarve, taking into account the concurrent access to the contents of the portal based on the solution of the problem Readers / Writers. When implementing the portal, a cloud computing infrastructure was used, making it possible to view the contents created in the portal globally.
 
-![screenshot 1](https://github.com/MiguelG28/Ualg-Eventos/tree/master/Examples/index.png "Home screen")
+![screenshot 1](https://github.com/MiguelG28/Ualg-Eventos/tree/master/Examples/1-index.PNG "Home screen")
 
-![screenshot 2](https://github.com/MiguelG28/Ualg-Eventos/tree/master/Examples/edit_event.png "Main objective-An event is only edited by one person at a time")
+![screenshot 2](https://github.com/MiguelG28/Ualg-Eventos/tree/master/Examples/9-edit_event.PNG "Main objective-An event is only edited by one person at a time")
 
 [Click here for more Web App screenshots](https://github.com/MiguelG28/Ualg-Eventos/tree/master/Examples)
 

@@ -4,7 +4,7 @@ This project was developed within the scope of the Parallel and Distributed Syst
 It is intended to implement a portal about the events that occur or may occur at the University of Algarve, taking into account the concurrent access to the contents of the portal based on the solution of the problem Readers / Writers. When implementing the portal, a cloud computing infrastructure was used, making it possible to view the contents created in the portal globally.
 
 
-![screenshot 2](https://raw.github.com/MiguelG28/Ualg-Eventos/tree/master/Examples/9-edit_event.PNG)
+![screenshot 2](https://raw.github.com/MiguelG28/Ualg-Eventos/tree/master/Examples/9-edit_event.png)
 
 [Click here for more Web App screenshots](https://github.com/MiguelG28/Ualg-Eventos/tree/master/Examples)
 
